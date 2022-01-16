@@ -1,0 +1,17 @@
+lr_tf:
+  maxIter: 50
+  regParam: 0.3
+  elasticNetParam: 0
+lr_tf_idf:
+  maxIter: 80
+  regParam: 0.3
+  elasticNetParam: 0
+rf:
+  numTrees: 200
+  maxDepth: 8
+  maxBins: 16
+gb:
+  maxIter: 5
+  maxDepth: 4
+  maxBins: 8
+

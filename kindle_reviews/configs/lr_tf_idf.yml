@@ -1,0 +1,12 @@
+tokenizer:
+  inputCol: 'reviewText'
+  outputCol: 'reviews_vector'
+stopwords:
+  inputCol: 'reviews_vector'
+  outputCol: 'reviews_filtered'
+hashing:
+  inputCol: 'reviews_filtered'
+  outputCol: 'reviews_hash'
+idf:
+  inputCol: 'reviews_hash'
+  outputCol: 'features'
